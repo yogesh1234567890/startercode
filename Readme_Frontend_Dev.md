@@ -66,7 +66,7 @@ You will build a **Task and Relationship Management Tool** that has two key comp
 
 #### **Core Features**
 - Recreate the provided [Figma Design](https://www.figma.com/proto/PpWBQopL2PrIsAhDvOxCRa/HonestValue-Main-File?page-id=24%3A90&node-id=102-1405&node-type=frame&viewport=2518%2C2147%2C0.19&t=iHGEZAiMrFpuxZbu-1&scaling=min-zoom&content-scaling=fixed) using **Next.js or Vite**.
-(Figma Link: https://www.figma.com/proto/PpWBQopL2PrIsAhDvOxCRa/HonestValue-Main-File?page-id=24%3A90&node-id=102-1405&node-type=frame&viewport=2518%2C2147%2C0.19&t=iHGEZAiMrFpuxZbu-1&scaling=min-zoom&content-scaling=fixed)
+(Figma Link: https://www.figma.com/proto/PpWBQopL2PrIsAhDvOxCRa/HonestValue-Main-File?page-id=24%3A90&node-id=102-1405&node-type=frame&viewport=2518%2C2147%2C0.19&t=fLDHkbsal80rr9VM-1&scaling=min-zoom&content-scaling=fixed)
 - Ensure **responsiveness**:
   - The UI should work seamlessly on mobile, tablet, and desktop screens (since figma does not have smaller screen design, we want to see your creativity on how you think it should be. Nothing too serious, but we want you to be independent thinker.).
 
