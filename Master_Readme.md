@@ -169,3 +169,15 @@ Apart from mentioned deliverables in the respective Readme files, below are the 
    - Any other links you want to share (Optional)
 2. Fully functional system as per the requirements in each Readme file.
 3. Note that you can just push it to the github repo that you cloned from github classroom and we will be able to see it. No need to submit it anywhere else.
+
+
+**How to start the project?**
+
+1. Clone the repository that you have been given access to.
+2. Read the Readme file of the role you are applying for.
+3. Start working on the project.
+4. Push the code to the repository.
+5. Make sure to have the time log in the Readme.md or TimeLog.md file.
+6. Make sure to have all the deliverables mentioned above and in the respective Readme files.
+7. We will review the code and get back to you for the next steps.
+8. Done
