@@ -1,15 +1,14 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, Float, Text, DateTime, func
+from . import db
 
-from database import Base
-
-class User(Base):
+class User(db.Model):
     __tablename__ = "users"
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
 
-class Event(Base):
+class Event(db.Model):
     __tablename__ = "events"
 
     id = Column(Integer, primary_key=True, index=True)
@@ -21,14 +20,14 @@ class Event(Base):
     total_tickets = Column(Integer, nullable=False)
     available_tickets = Column(Integer, default=0)
 
-class Ticket(Base):
+class Ticket(db.Model):
     __tablename__ = "tickets"
 
     id = Column(Integer, primary_key=True, index=True)
     event_id = Column(Integer, ForeignKey("events.id"), nullable=False)
     status = Column(String, default="Available")
 
-class Order(Base):
+class Order(db.Model):
     __tablename__ = "orders"
 
     id = Column(Integer, primary_key=True, index=True)

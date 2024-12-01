@@ -1,5 +1,6 @@
 from flask import Blueprint, g, Request, jsonify
 from .demo_routes import demo_routers
+# from src.services.views import ticket_routes
 api_routes = Blueprint("api", __name__)
 
 
@@ -18,6 +19,7 @@ def db_status():
 # define all your sub-routes here
 # -------------------------------
 api_routes.register_blueprint(demo_routers, url_prefix="/demo")
+# api_routes.register_blueprint(ticket_routes, url_prefix="/tickets")
 # -------------------------------
 
 # all the routes other than defined above will throw 404 error
